@@ -40,7 +40,8 @@ button {
 	border-radius: 4px;
 }
 
-ul, ol {
+ul,
+ol {
 	list-style: none;
 	padding-left: 0;
 	margin: 0;
@@ -54,5 +55,28 @@ ul, ol {
 	padding-top: 120px;
 	padding-bottom: 120px;
 }
-
-
+/* --------------HEADER---------------- */
+.header {
+	width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: bisque;
+}
+.header-logo {
+}
+.header-list {
+	display: flex;
+	margin-left: auto;
+	gap: 30px;
+}
+.header-link {
+	display: block;
+	color: #333333;
+	padding: 30px 0;
+}
+.header-link:hover,
+.header-link:focus {
+	color: #28a745;
+}
